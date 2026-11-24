@@ -1,6 +1,6 @@
-# CampusFlow — Front
+# LaManuFlow — Front
 
-Interface web de CampusFlow, pour le suivi de l'alternance et de la vie scolaire.
+Interface web de LaManuFlow, pour le suivi de l'alternance et de la vie scolaire.
 
 ## Stack
 

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CampusFlow",
+  title: "LaManuFlow",
   description: "Suivi de l'alternance et de la vie scolaire.",
 };
 
