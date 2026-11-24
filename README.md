@@ -34,6 +34,8 @@ Le front démarre sur http://localhost:3000. Les appels de la feature `candidatu
 | `npm run build` | Vérifie les types et crée le build de production |
 | `npm run start` | Démarre le build de production |
 | `npm run lint` | Lance ESLint |
+| `npm test` | Lance les tests unitaires une fois |
+| `npm run test:watch` | Relance les tests pendant le développement |
 | `npm run format` | Formate les fichiers de `src/` |
 
 ## Architecture
@@ -158,5 +160,5 @@ L'authentification n'est pas encore implémentée dans ce dépôt. Lorsqu'elle s
 - Types usuels : `feat`, `fix`, `docs`, `refactor`, `test`, `build`, `ci`, `chore`.
 - Exemples : `feat(candidatures): add empty state`, `docs: clarify feature boundaries`, `ci: add GitHub Actions workflow`.
 - Ouvrez une PR vers `develop` et faites relire les changements.
-- Le workflow `.github/workflows/ci.yml` lance `npm ci`, `npm run lint` et `npm run build` à chaque push et pull request.
+- Le workflow `.github/workflows/ci.yml` lance `npm ci`, `npm test`, `npm run lint` et `npm run build` à chaque push et pull request.
 - Attendez la réussite de la CI avant de fusionner une PR.
